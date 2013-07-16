@@ -20,5 +20,7 @@ The game finishes when I have found the exact match for the secret code
 Examples: 
 
 Secret: 1234, Proposal: 1245 --> Response: '++-' because two exact matches (1,2) and one digit match (4)
+
 Secret: 1234, Proposal: 2002 --> Response: '-' 
+
 Secret: 1234, Proposal: 2200 --> Response: '+' 
