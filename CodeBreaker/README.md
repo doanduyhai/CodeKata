@@ -14,7 +14,7 @@ The game finishes when I have found the exact match for the secret code
 3. An exact match is a digit that matches a digit of the secret code both in value and in position
 4. A digit match is a digit that matches a digit of the secret code in value but does not have the correct position
 5. Exact matches have priority over digit matches
-6. Once a digit has been matched (digit match, not **exact match**) in the **secret code**, it can no longer be used for another match
+6. Once a digit has been used for matching (digit match or exact match) in the **secret code**, it can no longer be used for another match
 
 
 Examples: 
